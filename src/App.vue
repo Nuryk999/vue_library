@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Alert></Alert>
+  <Breadcrumb></Breadcrumb>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Alert from './components/Alert.vue';
+import Breadcrumb from './components/Breadcrumb.vue'; 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Alert,
+    Breadcrumb,
   }
 }
 </script>
